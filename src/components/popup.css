@@ -1,0 +1,29 @@
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.inner-popup-message {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 640px;
+  padding: 42px;
+}
+
+.close-btn {
+  cursor: pointer;
+  border: 0 solid;
+  background-color: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+}
